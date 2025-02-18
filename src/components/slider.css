@@ -8,13 +8,13 @@ body {
 } */
 
 .slider-box {
-  background: white;
+  background: rgb(27, 201, 157);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color: white;
+  color: rgb(27, 201, 157);
   margin: 0;
   padding: 0;
-  background: linear-gradient(180deg, white 5%, hsla(87, 100%, 65%, 1) 100%);
+  background: linear-gradient(180deg, rgb(27, 201, 157) 5%, hsla(87, 100%, 65%, 1) 100%);
   justify-content: center;
 }
 
@@ -48,5 +48,4 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  /* border-radius: 15px; */
 }

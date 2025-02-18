@@ -1,0 +1,31 @@
+.comments {
+  margin-top: -5px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensure the comments container takes full viewport height */
+  background-color: hsla(87, 100%, 65%, 1);
+}
+
+.container-comments {
+  position: relative;
+  width: 95%;
+  height: 80vh;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow */
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 50%;
+  height: 15%;
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: pink;
+  padding: 10px;
+  cursor: grab;
+  user-select: none;
+}

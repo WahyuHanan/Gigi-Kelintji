@@ -31,10 +31,11 @@
       transform: translateY(0);
     }
   }
-
-  --color-green-GK: hsla(87, 100%, 65%, 1);
 }
 
+color {
+  --color-green-GK: hsla(87, 100%, 65%, 1);
+}
 /* Animation Hero  */
 /* @keyframes appear-left {
   0% {
@@ -72,19 +73,23 @@
   }
 }
 
+body {
+  background-color: rgb(27, 201, 157);
+}
+
 .navbar {
   transition: 0.5s;
   animation: appearTop ease-in-out;
 }
 
 .hero {
-  background: linear-gradient(180deg, rgb(64, 137, 245) 41%, white 100%);
+  background: linear-gradient(180deg, rgb(64, 137, 245) 41%, rgb(27, 201, 157) 100%);
   justify-content: center;
 }
 
 .salad-page {
   /* background: hsla(87, 100%, 65%, 1); */
-  background: white;
+  background: rgb(27, 201, 157);
 }
 
 /* Card Slider */

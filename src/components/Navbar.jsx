@@ -4,10 +4,12 @@ export default function Navbar() {
 
     if (window.pageYOffset >= 50) {
       navbar.style.top = "-10px";
-      navbar.style.scale = "0.8";
+      navbar.style.scale = "0.7";
+      navbar.style.opacity = "75%";
     } else {
       navbar.style.top = "20px";
       navbar.style.scale = "1";
+      navbar.style.opacity = "100";
     }
   });
 
