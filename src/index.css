@@ -75,6 +75,7 @@ color {
 
 body {
   background-color: rgb(27, 201, 157);
+  overflow-x: hidden;
 }
 
 .navbar {

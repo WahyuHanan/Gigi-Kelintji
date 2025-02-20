@@ -14,7 +14,7 @@ import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 
 export default function Slider() {
   return (
-    <div className="slider-box">
+    <div className="slider-box" data-aos="zoom-in-up">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
