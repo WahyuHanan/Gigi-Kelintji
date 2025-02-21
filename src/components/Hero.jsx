@@ -11,7 +11,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="box min-w-fit z-0 mx-auto" data-aos="fade-left">
-          <img src="public\img\fruit1-r.png" alt="" className="size-[500px] animate-[float_1s_ease-in-out_infinite]" />
+          <img src="public/img/fruit1-r.png" alt="" className="md:size-[500px] sm:size-[400px] xs:size-[300px] animate-[float_1s_ease-in-out_infinite]" />
         </div>
       </div>
     </div>
